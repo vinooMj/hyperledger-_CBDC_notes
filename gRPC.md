@@ -6,7 +6,7 @@ microservice architecture. From the user’s point of view, it acts like a local
 
 The diagram below illustrates the overall data flow for 𝐠𝐑𝐏𝐂.
 
-Step 1: A REST call is made from the client. The request body is usually in JSON format.
+Step 1: A REST call is made from the client. The request body is usually in JSON format..
 
 Steps 2 - 4: The order service (gRPC client) receives the REST call, transforms it, and makes an RPC call to the payment service. gPRC encodes the 𝐜𝐥𝐢𝐞𝐧𝐭 𝐬𝐭𝐮𝐛 into 
 a binary format and sends it to the low-level transport layer.
