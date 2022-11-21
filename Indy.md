@@ -1,4 +1,117 @@
-Hyperledger
+Hyperledger Indy
+
+Indy is decentralized identy
+
+Indy has own implementation of distributed ledger not dependent on any other blockchain platform
+Indy has its own implementation of a PBFT	-like consensus protocol
+Indy is one of active project
+Indy deployment (Sovrin) is in production for more than 2 years.
+It has real customers.
+There are other Indy ledger deployment as well(Findy, kiva, etc).
+
+SSI and Public blockchain 
+
+Issuer   zeroKnowledge Encoding   -> Prover - wallet     zeroKnowledgeProof ->  Verifier
+Sign credential                      Countersign credential                     Verifies signature
+
+Why blockchain?
+Decentralized source of trust for publicly available information.
+
+Why blockchain is public?
+Anyone in ecosystem need to be able to read data(such as public key, schemas etc)
+
+What is onblockchain?
+Public DID, DID DOCs, Issuer's publickey, Credential Schema's, Information about revoction
+
+What is not blockchain?
+Pairwise DID's
+Credentials
+Proves
+Private Key
+
+Indy-Plenum and Indy -node
+
+Indy-Plenm is like consensus and general one
+
+Indy node is top on indy plenum and identy specific transaction.
+
+Indy is a Ledger purpose built for identity
+
+Indy-Plenum and Indy -node written by python
+
+Depends on ZMQ, indy-Crypto(Ursa), libsodium.
+
+We can test with 25 nodes
+
+Indy is permissioned network it allows steward node can join the network as node and it can write in ledger with policies
+
+Validator
+Validator pool - its fixed number node.
+Validator handles writes and reads 
+Its part of consensus
+25 validator node
+N= 3F+1
+Each node replicates all ledger   
+Each ledger has a merkle Tree
+Most of the ledger have state based on Particia tree
+BLS signature for every transaction in ledger.
+multi signature by user
+Digital signature: Ed25519
+
+Incase read reques it need one node.
+
+Observer node
+Its only read
+It state sync with validator
+ 
+Authentication:
+
+Write Request:
+
+Must be signed(Ed25519 digital signature)
+Signature its verified against public key stored on the ledger(DID txn)
+
+Read request:
+Anyone can read no authentication is required
+
+Authorization
+
+Write request
+Role associated with every DID
+Configurable auth rules(in configledger) - authorization policy for every action
+How many signatures of the given role
+OR/AND expressions
+
+Read request
+no autherization required
+
+Ledger: Transaction  Log & Merkle Tree
+
+Ledger:
+
+ledger is like dtabase
+Ordered log of transaction
+It has three db
+Transaction log, Merkle leaves and merkle nodes
+RocksDB as key-value storage
+Merkle tree for whole ledger
+No real blocks
+
+Four different ledger
+
+Audit ledger
+order across ledger
+Pool ledger
+Transaction for every node in the pooll addind editing removing nodes
+Config ledger
+pool config parameter & policy
+validation rules
+Domain ledger
+identity specific transaction
+Application specific transaction.
+
+
+
 
 Aries - agents, encrypted messaging, protocols, credential exchange
 Ursa - Cryptograpy secret management
