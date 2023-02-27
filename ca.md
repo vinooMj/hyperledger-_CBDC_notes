@@ -6,7 +6,7 @@ and manage identity in your blockchain network.
 We have walked through both the cryptogen tool and the Fabric-CA, and see the difference between them. Cryptogen is good for demo or static setup, while 
 Fabric-CA provides a better way to issue certificates in real life.
 
-CA that can generate ECDSA certificates may be used.
+CA that can generate ECDSA certificates may be used..
 
 The Fabric CA server should now be listening on port 7054.
 
