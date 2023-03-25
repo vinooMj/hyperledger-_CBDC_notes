@@ -5,7 +5,7 @@ Indy is decentralized identy
 Indy has own implementation of distributed ledger not dependent on any other blockchain platform
 Indy has its own implementation of a PBFT	-like consensus protocol
 Indy is one of active project
-Indy deployment (Sovrin) is in production for more than 2 years.
+Indy deployment (Sovrin) is in production for more than 2 years..
 It has real customers.
 There are other Indy ledger deployment as well(Findy, kiva, etc).
 
