@@ -1,4 +1,4 @@
-Central Bank Digital Currency - E-krona
+Central Bank Digital Currency - E-krona.
 
 Sveriges Riksbank, Swedish central bank, has released a report of its central bank digital currency (e-krona) pilot phase 3.
 
