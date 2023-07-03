@@ -18,6 +18,10 @@ can be executed at the same time, and the banking system can operate on the same
 - Commercial banks can perform 𝐩𝐞𝐞𝐫-𝐭𝐨-𝐩𝐞𝐞𝐫 payments.
 - The transactions can be executed with the agreed FX rate.
 
-
+1. Efficient Cross-Border Transactions: Interoperability allows for swift and cost-effective cross-border transactions, bypassing the need for intermediaries and reducing settlement times. This can facilitate international trade, remittances, and financial inclusion.
+2. Enhanced Financial Inclusion: Interoperability enables individuals and businesses to access and transact with CBDCs across borders, fostering financial inclusion by providing access to digital financial services on a global scale.
+3. Strengthened Monetary Policy and Financial Stability: Global interoperability can facilitate better coordination between central banks, enhancing the effectiveness of monetary policies and promoting financial stability by enabling seamless cross-border regulation and oversight.
+4. Improved Payment Efficiency: Interoperability can streamline payment processes, making them more efficient and secure.
+5. Fostering Innovation and Collaboration : CBDC global interoperability encourages collaboration and innovation among central banks, fintech companies, and financial institutions.
 Reference: 
 [1] BIS: Inthanon-LionRock to mBridge
