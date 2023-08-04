@@ -20,3 +20,11 @@ Have they just recently become aware of this? Perhaps they're hiding something e
 Nonetheless, everyone is aware that this is a battle against crypto.
 
 CBDC is now being adopted by 105 nations, which together account for more than 95% of the world GDP.
+
+
+
+.CBDCs would give confidential information and vast power to a faceless government enterprise who can turn that information against you in countless ways. By eliminating the private banking middleman, central bank digital currencies eliminate a key buffer that helps insulate individuals and firms from government prying and overreach...
+
+If CBDCs go live, solar and wind power, officially favored, could see their bank accounts magically subsidized with no need to attract private investors or to pass through the scrutiny of the private banking system. Bank accounts would become subject to the ballot box, or worse, the bureaucrat.
+
+Anyone – especially political targets – could be unbanked overnight with little recourse. 
