@@ -2,7 +2,7 @@ Global economies are being swept up in the tide of change brought on by the cryp
 
 Intriguingly, CBDCs are not cryptocurrencies. CBDCs are created and managed by a nation's central bank or other monetary authority.
 
-In the case of CBDC, a central database creates the currency and gives every e-dollar a unique serial number to identify it.
+In the case of CBDC, a central database createss the currency and gives every e-dollar a unique serial number to identify it.
 
 In addition, since CBDCs are a centralized form of money, this currency does not anonymize transactions like other cryptocurrencies.
 
